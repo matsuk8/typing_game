@@ -1,1 +1,2 @@
 # typing_game
+JavaScriptと打つだけの単純なタイピングゲーム
