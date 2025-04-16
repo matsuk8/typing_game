@@ -2,17 +2,15 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
-    <title>JavaScriptで簡単なタイピングゲームを作成してみる</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイピングアプリ</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body> 
-    <div class = "question">
-        <span id = "entered" class="marker"></span>
-        <span id = "remained">JavaScript</span>
-    </div>
-    <input type="text" class="text" id="inputText">
-
+<body>
+    <h1>タイピング練習</h1>
+    <p id="word"></p>
+    <input type="text" id="input" autofocus>
+    <p id="result"></p>
+    <script src="app.js"></script>
 </body>
 </html>
